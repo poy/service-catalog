@@ -44,15 +44,15 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	servicecatalogclientset "github.com/kubernetes-incubator/service-catalog/pkg/client/clientset_generated/clientset/typed/servicecatalog/v1beta1"
-	informers "github.com/kubernetes-incubator/service-catalog/pkg/client/informers_generated/externalversions/servicecatalog/v1beta1"
-	listers "github.com/kubernetes-incubator/service-catalog/pkg/client/listers_generated/servicecatalog/v1beta1"
-	scfeatures "github.com/kubernetes-incubator/service-catalog/pkg/features"
-	"github.com/kubernetes-incubator/service-catalog/pkg/filter"
-	"github.com/kubernetes-incubator/service-catalog/pkg/pretty"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	servicecatalogclientset "github.com/poy/service-catalog/pkg/client/clientset_generated/clientset/typed/servicecatalog/v1beta1"
+	informers "github.com/poy/service-catalog/pkg/client/informers_generated/externalversions/servicecatalog/v1beta1"
+	listers "github.com/poy/service-catalog/pkg/client/listers_generated/servicecatalog/v1beta1"
+	scfeatures "github.com/poy/service-catalog/pkg/features"
+	"github.com/poy/service-catalog/pkg/filter"
+	"github.com/poy/service-catalog/pkg/pretty"
 	v12 "k8s.io/client-go/informers/core/v1"
-	"k8s.io/client-go/listers/core/v1"
+	v1 "k8s.io/client-go/listers/core/v1"
 )
 
 const (

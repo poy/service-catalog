@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/api"
+	"github.com/poy/service-catalog/pkg/api"
 	"k8s.io/apiserver/pkg/server/healthz"
 	genericapiserverstorage "k8s.io/apiserver/pkg/server/storage"
 	"k8s.io/apiserver/pkg/storage/etcd3/preflight"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apiserver"
-	"github.com/kubernetes-incubator/service-catalog/pkg/apiserver/options"
+	"github.com/poy/service-catalog/pkg/apiserver"
+	"github.com/poy/service-catalog/pkg/apiserver/options"
 	"k8s.io/klog"
 )
 

@@ -25,9 +25,9 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/apiserver/pkg/storage"
 
-	scmeta "github.com/kubernetes-incubator/service-catalog/pkg/api/meta"
-	settingsapi "github.com/kubernetes-incubator/service-catalog/pkg/apis/settings"
-	"github.com/kubernetes-incubator/service-catalog/pkg/registry/servicecatalog/server"
+	scmeta "github.com/poy/service-catalog/pkg/api/meta"
+	settingsapi "github.com/poy/service-catalog/pkg/apis/settings"
+	"github.com/poy/service-catalog/pkg/registry/servicecatalog/server"
 )
 
 var (

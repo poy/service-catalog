@@ -28,8 +28,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/apiserver/app/server"
-	"github.com/kubernetes-incubator/service-catalog/test/util"
+	"github.com/poy/service-catalog/cmd/apiserver/app/server"
+	"github.com/poy/service-catalog/test/util"
 )
 
 type result struct {

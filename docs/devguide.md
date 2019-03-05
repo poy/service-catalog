@@ -67,7 +67,7 @@ linux/amd64 binaries suitable for execution within a Docker container.
 We can set up the repo by following a process similar to the [dev guide for k8s]( https://github.com/kubernetes/community/blob/master/contributors/devel/development.md#1-fork-in-the-cloud)
 
 ### 1 Fork in the Cloud
-1. Visit https://github.com/kubernetes-incubator/service-catalog
+1. Visit https://github.com/poy/service-catalog
 2. Click Fork button (top right) to establish a cloud-based fork.
 
 ### 2 Clone fork to local storage
@@ -102,7 +102,7 @@ git clone https://github.com/$user/service-catalog.git
 # or: git clone git@github.com:$user/service-catalog.git
 
 cd service-catalog
-git remote add upstream https://github.com/kubernetes-incubator/service-catalog.git
+git remote add upstream https://github.com/poy/service-catalog.git
 # or: git remote add upstream git@github.com:kubernetes-incubator/service-catalog.git
 
 # Never push to upstream master
@@ -334,7 +334,7 @@ functionality or introduce instability.  See [FeatureGates](feature-gates.md)
 for more details.
 
 When adding a FeatureGate to Helm charts, define the variable
-`fooEnabled` with a value of `false` in [values.yaml](https://github.com/kubernetes-incubator/service-catalog/blob/master/charts/catalog/values.yaml).  In the [API Server](https://github.com/kubernetes-incubator/service-catalog/blob/master/charts/catalog/templates/apiserver-deployment.yaml) and [Controller](https://github.com/kubernetes-incubator/service-catalog/blob/master/charts/catalog/templates/controller-manager-deployment.yaml)
+`fooEnabled` with a value of `false` in [values.yaml](https://github.com/poy/service-catalog/blob/master/charts/catalog/values.yaml).  In the [API Server](https://github.com/poy/service-catalog/blob/master/charts/catalog/templates/apiserver-deployment.yaml) and [Controller](https://github.com/poy/service-catalog/blob/master/charts/catalog/templates/controller-manager-deployment.yaml)
 templates, add the new FeatureGate:
 {% raw %}
 ```yaml
@@ -344,7 +344,7 @@ templates, add the new FeatureGate:
 {% endraw %}
 
 When the feature has had enough testing and the community agrees to change the
-default to true, update [features.go](https://github.com/kubernetes-incubator/service-catalog/blob/master/pkg/features/features.go) and `values.yaml` changing the default for
+default to true, update [features.go](https://github.com/poy/service-catalog/blob/master/pkg/features/features.go) and `values.yaml` changing the default for
 feature foo to `true`. And lastly update the appropriate information in the
 [FeatureGates doc](feature-gates.md).
 

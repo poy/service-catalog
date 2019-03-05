@@ -20,16 +20,16 @@ import (
 	"bytes"
 	"fmt"
 
-	. "github.com/kubernetes-incubator/service-catalog/cmd/svcat/broker"
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/command"
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/test"
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog/service-catalogfakes"
+	. "github.com/poy/service-catalog/cmd/svcat/broker"
+	"github.com/poy/service-catalog/cmd/svcat/command"
+	svcattest "github.com/poy/service-catalog/cmd/svcat/test"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	"github.com/poy/service-catalog/pkg/svcat"
+	servicecatalog "github.com/poy/service-catalog/pkg/svcat/service-catalog"
+	servicecatalogfakes "github.com/poy/service-catalog/pkg/svcat/service-catalog/service-catalogfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 var _ = Describe("Get Broker Command", func() {

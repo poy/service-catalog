@@ -22,10 +22,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	// avoid error `servicecatalog/v1beta1 is not enabled`
-	_ "github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/install"
+	_ "github.com/poy/service-catalog/pkg/apis/servicecatalog/install"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	"github.com/kubernetes-incubator/service-catalog/test/util"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	"github.com/poy/service-catalog/test/util"
 )
 
 func TestClusterServicePlanRemovedFromCatalogWithoutInstances(t *testing.T) {
