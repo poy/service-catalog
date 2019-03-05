@@ -19,12 +19,12 @@ package broker
 import (
 	"bytes"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/command"
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/test"
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog/service-catalogfakes"
+	"github.com/poy/service-catalog/cmd/svcat/command"
+	"github.com/poy/service-catalog/cmd/svcat/test"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	"github.com/poy/service-catalog/pkg/svcat"
+	"github.com/poy/service-catalog/pkg/svcat/service-catalog"
+	"github.com/poy/service-catalog/pkg/svcat/service-catalog/service-catalogfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"

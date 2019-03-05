@@ -22,7 +22,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/install"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/install"
 	//coreinstall "k8s.io/client-go/pkg/api/install"
 )
 

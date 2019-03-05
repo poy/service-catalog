@@ -28,11 +28,11 @@ import (
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apiserver/pkg/admission"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/client/clientset_generated/internalclientset"
-	servicecataloginternalversion "github.com/kubernetes-incubator/service-catalog/pkg/client/clientset_generated/internalclientset/typed/servicecatalog/internalversion"
+	"github.com/poy/service-catalog/pkg/client/clientset_generated/internalclientset"
+	servicecataloginternalversion "github.com/poy/service-catalog/pkg/client/clientset_generated/internalclientset/typed/servicecatalog/internalversion"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog"
-	scadmission "github.com/kubernetes-incubator/service-catalog/pkg/apiserver/admission"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog"
+	scadmission "github.com/poy/service-catalog/pkg/apiserver/admission"
 )
 
 const (

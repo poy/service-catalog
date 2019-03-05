@@ -20,8 +20,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	"github.com/kubernetes-incubator/service-catalog/test/fake"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	"github.com/poy/service-catalog/test/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 
 	"reflect"

@@ -22,7 +22,7 @@ import (
 
 	"testing"
 
-	_ "github.com/kubernetes-incubator/service-catalog/internal/test"
+	_ "github.com/poy/service-catalog/internal/test"
 )
 
 func TestBroker(t *testing.T) {

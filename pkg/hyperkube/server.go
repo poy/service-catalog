@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	utiltemplate "github.com/kubernetes-incubator/service-catalog/pkg/kubernetes/pkg/util/template"
+	utiltemplate "github.com/poy/service-catalog/pkg/kubernetes/pkg/util/template"
 	"k8s.io/apiserver/pkg/util/flag"
 
 	"github.com/spf13/pflag"

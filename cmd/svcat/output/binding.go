@@ -21,8 +21,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	svcatsdk "github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	svcatsdk "github.com/poy/service-catalog/pkg/svcat/service-catalog"
 	"k8s.io/api/core/v1"
 )
 

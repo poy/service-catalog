@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog"
-	scfeatures "github.com/kubernetes-incubator/service-catalog/pkg/features"
-	sctestutil "github.com/kubernetes-incubator/service-catalog/test/util"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog"
+	scfeatures "github.com/poy/service-catalog/pkg/features"
+	sctestutil "github.com/poy/service-catalog/test/util"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"

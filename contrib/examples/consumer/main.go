@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog"
+	"github.com/poy/service-catalog/pkg/svcat"
+	"github.com/poy/service-catalog/pkg/svcat/service-catalog"
 	"k8s.io/klog"
 )
 
