@@ -32,6 +32,7 @@ require (
 	github.com/go-openapi/spec v0.17.2
 	github.com/go-openapi/swag v0.17.2
 	github.com/gogo/protobuf v0.0.0-20171007142547-342cbe0a0415
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
 	github.com/golang/groupcache v0.0.0-20160516000752-02826c3e7903
 	github.com/golang/protobuf v1.2.0
 	github.com/google/btree v0.0.0-20160524151835-7d79101e329e
@@ -111,7 +112,7 @@ require (
 	k8s.io/api v0.0.0-20181121191454-a61488babbd6
 	k8s.io/apimachinery v0.0.0-20181127025237-2b1284ed4c93
 	k8s.io/apiserver v0.0.0-20181212071637-c3083108fa3b
-	k8s.io/client-go v0.0.0-20181212030843-abf3a7067f0c
+	k8s.io/client-go v2.0.0-alpha.0.0.20190226174127-78295b709ec6+incompatible
 	k8s.io/code-generator v0.0.0-20181117043124-c2090bec4d9b
 	k8s.io/gengo v0.0.0-20181106084056-51747d6e00da
 	k8s.io/klog v0.0.0-20181108234604-8139d8cb77af
