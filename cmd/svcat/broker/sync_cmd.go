@@ -19,8 +19,8 @@ package broker
 import (
 	"fmt"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/command"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog"
+	"github.com/poy/service-catalog/cmd/svcat/command"
+	"github.com/poy/service-catalog/pkg/svcat/service-catalog"
 	"github.com/spf13/cobra"
 )
 

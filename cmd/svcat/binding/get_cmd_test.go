@@ -21,17 +21,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/command"
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/test"
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	svcatfake "github.com/kubernetes-incubator/service-catalog/pkg/client/clientset_generated/clientset/fake"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat"
+	"github.com/poy/service-catalog/cmd/svcat/command"
+	"github.com/poy/service-catalog/cmd/svcat/test"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	svcatfake "github.com/poy/service-catalog/pkg/client/clientset_generated/clientset/fake"
+	"github.com/poy/service-catalog/pkg/svcat"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	k8sfake "k8s.io/client-go/kubernetes/fake"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/output"
-	_ "github.com/kubernetes-incubator/service-catalog/internal/test"
+	"github.com/poy/service-catalog/cmd/svcat/output"
+	_ "github.com/poy/service-catalog/internal/test"
 )
 
 func TestGetCommand(t *testing.T) {

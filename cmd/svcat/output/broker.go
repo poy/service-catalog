@@ -19,8 +19,8 @@ package output
 import (
 	"io"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
-	"github.com/kubernetes-incubator/service-catalog/pkg/svcat/service-catalog"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	"github.com/poy/service-catalog/pkg/svcat/service-catalog"
 )
 
 func getBrokerStatusCondition(status v1beta1.CommonServiceBrokerStatus) v1beta1.ServiceBrokerCondition {

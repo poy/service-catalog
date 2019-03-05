@@ -26,11 +26,11 @@ import (
 	"k8s.io/apiserver/pkg/admission"
 	core "k8s.io/client-go/testing"
 
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog"
-	scadmission "github.com/kubernetes-incubator/service-catalog/pkg/apiserver/admission"
-	"github.com/kubernetes-incubator/service-catalog/pkg/client/clientset_generated/internalclientset"
-	"github.com/kubernetes-incubator/service-catalog/pkg/client/clientset_generated/internalclientset/fake"
-	informers "github.com/kubernetes-incubator/service-catalog/pkg/client/informers_generated/internalversion"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog"
+	scadmission "github.com/poy/service-catalog/pkg/apiserver/admission"
+	"github.com/poy/service-catalog/pkg/client/clientset_generated/internalclientset"
+	"github.com/poy/service-catalog/pkg/client/clientset_generated/internalclientset/fake"
+	informers "github.com/poy/service-catalog/pkg/client/informers_generated/internalversion"
 )
 
 // newHandlerForTest returns a configured handler for testing.

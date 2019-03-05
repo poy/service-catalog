@@ -23,7 +23,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 
 	"k8s.io/klog"
-	"github.com/kubernetes-incubator/service-catalog/test/e2e/framework"
+	"github.com/poy/service-catalog/test/e2e/framework"
 )
 
 var brokerImageFlag string

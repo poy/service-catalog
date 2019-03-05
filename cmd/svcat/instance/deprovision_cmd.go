@@ -19,10 +19,10 @@ package instance
 import (
 	"fmt"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/output"
-	"github.com/kubernetes-incubator/service-catalog/pkg/apis/servicecatalog/v1beta1"
+	"github.com/poy/service-catalog/cmd/svcat/output"
+	"github.com/poy/service-catalog/pkg/apis/servicecatalog/v1beta1"
 
-	"github.com/kubernetes-incubator/service-catalog/cmd/svcat/command"
+	"github.com/poy/service-catalog/cmd/svcat/command"
 	"github.com/spf13/cobra"
 )
 

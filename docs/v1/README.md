@@ -8,4 +8,4 @@ This directory contains documentation for the eventual V1 GA release.
 
 ### Release status
 
-See the list of [milestones](https://github.com/kubernetes-incubator/service-catalog/milestones?direction=desc&sort=due_date).
+See the list of [milestones](https://github.com/poy/service-catalog/milestones?direction=desc&sort=due_date).
